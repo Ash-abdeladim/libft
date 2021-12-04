@@ -12,9 +12,9 @@
 
 NAME = libft.a
 
-CM = cc
+CM = gcc
 
-FLAG = -Wall -Wextra -Werror
+CFLAG = -Wall -Wextra -Werror
 
 SRC = ft_isdigit.c ft_memset.c ft_strjoin.c ft_strtrim.c ft_isprint.c\
         ft_putchar_fd.c ft_strlcat.c ft_substr.c ft_itoa.c  ft_atoi.c ft_isascii.c ft_putendl_fd.c\
